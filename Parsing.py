@@ -8,9 +8,9 @@ api_token = ''
 api_base_url = ''
 
 
-headers = {'accept': 'application/json',
-           'Authorization': 'Bearer {0}'.format(api_token),
-           }
+headers = {
+    'accept': 'application/json','Authorization': 'Bearer {0}'.format(api_token),
+        }
 
 def get_api_info():
 
