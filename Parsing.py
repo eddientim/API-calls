@@ -2,11 +2,9 @@ import json
 import requests
 from io import StringIO
 
-
 api_token = ''
 api_token = ''
 api_base_url = ''
-
 
 headers = {
     'accept': 'application/json','Authorization': 'Bearer {0}'.format(api_token),
